@@ -133,7 +133,7 @@ if selected_theme == "Overall ICT Benchmark Scores":
 
     elif selected_plot == "Company score vs. market capitalization":
         selected_columns = selected_df.iloc[:, [0, 1, 2, 3, 4, 5]].sort_values(by=[selected_df.columns[2]], ascending=True)
-        fig = px.scatter(selected_df, x="Market cap (US$bn)", y="Total benchmark score", color="Region",
+        fig = px.scatter(selected_df, x="Market cap (US$bn)", y="Total benchmark score", color="Region", hover_data=["Company Name", "Country"],
                  title=f"Total Benchmark Score vs Market Cap by Company ({selected_year} - {selected_region})", size_max=10)
         fig.update_layout(xaxis_title="Market Cap (US$bn)", yaxis_title="Total Benchmark Score")
 
