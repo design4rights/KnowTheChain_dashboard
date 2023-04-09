@@ -1,6 +1,6 @@
-# ktc_ict_2022 = pd.read_csv("C:/Users/kokuo/OneDrive/Study Files/Python/Visualisation Experiments/Know the Chain/KTC ICT Benchmark CSV Data/2022 KCT ICT.csv")
-# ktc_ict_2020 = pd.read_csv("C:/Users/kokuo/OneDrive/Study Files/Python/Visualisation Experiments/Know the Chain/KTC ICT Benchmark CSV Data/2020 KCT ICT.csv")
-# ktc_ict_2018 = pd.read_csv("C:/Users/kokuo/OneDrive/Study Files/Python/Visualisation Experiments/Know the Chain/KTC ICT Benchmark CSV Data/2018 KCT ICT.csv")
+# ktc_ict_2022 = pd.read_csv("2022 KCT ICT.csv")
+# ktc_ict_2020 = pd.read_csv("2020 KCT ICT.csv")
+# ktc_ict_2018 = pd.read_csv("2018 KCT ICT.csv")
 
 ### NOTES ###
 
