@@ -13,6 +13,7 @@
 # Rows 2-4 consolidated and moved in all three files into row 1
 # New sub-indicator 'score total' columns added in 2018 and 2020 files to match format of 2022 file
 # Column headers edited as necessary to ensure consistency across all three files  
+# added a comment
 
 import pandas as pd
 import plotly.express as px
