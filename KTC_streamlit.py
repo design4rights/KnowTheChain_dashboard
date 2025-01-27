@@ -27,7 +27,7 @@ st.set_page_config(page_title="KnowTheChain ICT Dashboard", page_icon="🔍", la
 with st.container():
     st.header("KnowTheChain ICT Benchmark Dashboard")
     st.markdown("""
-    This dashboard provides a visual interface to explore and analyze benchmark data on forced labour risks in the ICT sector's global supply chains. The benchmark includes data on the performance of 60 leading global electronics manufacturing companies. The datasets were compiled during 2018, 2020, and 2022 by KnowTheChain, a multistakeholder initiative that collects data on forced labour risks in global supply chains.""")
+    This dashboard was developed by Joanna Lovatt and published in April 2023 as a course project for an Introduction to Python module. This dashboard provides a visual interface to explore and analyze benchmark data on forced labour risks in the ICT sector's global supply chains. The benchmark includes data on the performance of 60 leading global electronics manufacturing companies. The datasets were compiled during 2018, 2020, and 2022 by KnowTheChain, a multistakeholder initiative that collects data on forced labour risks in global supply chains.""")
     
     with st.expander("About KnowTheChain"):
         st.markdown("""
